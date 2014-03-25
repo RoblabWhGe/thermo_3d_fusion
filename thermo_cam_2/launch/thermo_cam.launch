@@ -1,0 +1,9 @@
+<launch>
+  <node pkg="thermo_cam_2" type="thermo_cam_2" name="thermo_cam" output="screen">
+    <param name="config_file" value="10110034.xml"/>
+
+    <param name="min_temp" value="10"/>
+    <param name="max_temp" value="60"/> 
+
+  </node>
+</launch>

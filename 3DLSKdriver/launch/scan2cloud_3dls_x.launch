@@ -1,0 +1,9 @@
+<!-- start scan2cloud (transform scan to pointcloud2 continously) -->
+<launch>
+
+    <node pkg="3DLSKdriver" 
+          type="3DLSKdriver_scan2cloud" 
+          name="scan2cloud_3dls_x" 
+          respawn="true" output="screen"/>
+
+</launch>

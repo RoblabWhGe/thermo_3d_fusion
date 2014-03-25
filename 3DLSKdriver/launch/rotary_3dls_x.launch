@@ -1,0 +1,25 @@
+<!-- start rotary unit -->
+<!-- 3DLS-K: ticks =  52919; rpm =  144 -->
+<!-- 3DLS-X: ticks = 800000; rpm = 1000 -->
+<!--         ticks = -1; start predetermine ticks per turn -->
+
+<launch>
+
+    <node pkg="3DLSKdriver" 
+          type="3DLSKdriver_rotary_drive" 
+          name="rotary_drive" 
+          respawn="true"
+          output="screen">
+
+          <param name="port" 
+                 value="/dev/ttyUSB0" />
+
+          <param name="rpm" 
+                 value="144" />
+                 
+          <param name="ticks"
+                 value="100000" />
+                 
+    </node>
+
+</launch>

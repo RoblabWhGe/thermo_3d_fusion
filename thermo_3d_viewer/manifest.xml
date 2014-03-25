@@ -1,0 +1,19 @@
+<package>
+  <description brief="thermo_3d_viewer">
+
+     thermo_3d_viewer
+
+  </description>
+  <author>Tom-M. Liebelt</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/thermo_3d_viewer</url>
+  <depend package="roscpp"/>
+  <depend package="thermo_cloud"/>
+  <depend package="sensor_msgs"/>
+  <depend package="pcl_ros"/>
+  <depend package="message_filters"/>
+
+</package>
+
+

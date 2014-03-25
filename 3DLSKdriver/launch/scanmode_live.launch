@@ -1,0 +1,8 @@
+<!-- start live view for 3dls_x -->
+<launch>
+
+    <include file="$(find 3DLSKdriver)/launch/scanmode_online.launch" />
+
+    <include file="$(find 3DLSKdriver)/launch/scan2monitor.launch" />
+
+</launch>

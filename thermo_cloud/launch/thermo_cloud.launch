@@ -1,0 +1,11 @@
+<launch>
+	<include file="$(find thermo_cam_2)/launch/thermo_cam.launch" />
+	<include file="$(find 3DLSKdriver)/launch/scanmode_multi.launch" />
+	<include file="$(find extrinsic_calibration)/launch/cam_tf.launch" />
+	<node pkg="thermo_cloud" type="thermo_cloud" name="thermo_cloud" output="screen">
+		<param name="cloud_config" value="1"/>	
+		<param name="transparency" value="40"/>
+		<param name="intensity_start" value="300"/>
+		<param name="intensity_end" value="1000"/>
+	</node>
+</launch>

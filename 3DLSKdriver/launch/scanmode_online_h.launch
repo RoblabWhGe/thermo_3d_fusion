@@ -1,0 +1,8 @@
+<!-- start scan of 3dls_x -->
+<launch>
+
+    <include file="$(find 3DLSKdriver)/launch/rotary_3dls_x.launch" />
+
+    <include file="$(find 3DLSKdriver)/launch/lms1xx_3dls_x_horizontal.launch" />
+
+</launch>

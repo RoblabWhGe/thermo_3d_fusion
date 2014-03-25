@@ -1,0 +1,18 @@
+<package>
+  <description brief="qt_beispiel">
+
+     Beispielknoten für QT in ROS (mit Eclipse)
+
+  </description>
+  <author>Tom-M. Liebelt</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/qt_beispiel</url>
+  <depend package="roscpp"/>
+  <depend package="opencv2"/>
+  <depend package="cv_bridge"/>
+  <depend package="sensor_msgs"/>
+
+</package>
+
+

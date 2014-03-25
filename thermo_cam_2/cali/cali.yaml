@@ -1,0 +1,20 @@
+image_width: 160
+image_height: 120
+camera_name: thermo_cam
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [182.19955, 0, 77.65186, 0, 180.93691, 59.84703, 0, 0, 1]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.58172, 0.75153, -0.00254, 0.00702, 0]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1, 0, 0, 0, 1, 0, 0, 0, 1]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [182.19955, 0, 77.65186, 0,  0, 180.93691, 59.84703, 0, 0, 0, 1, 0]

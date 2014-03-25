@@ -1,0 +1,5 @@
+lms1xx_3dls_x.launch - Hier wird die IP des Laserscanners angegeben.
+
+rotary_3dls_x.launch - Hier werden die Anzahl der Motorticks und die gewünschte Geschwindigkeit angegeben.
+
+scanmode_multi.launch - Startet alle Knoten zur Erzeugung einer 3D-Punktwolke.

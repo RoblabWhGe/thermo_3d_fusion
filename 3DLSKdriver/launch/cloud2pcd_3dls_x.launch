@@ -1,0 +1,9 @@
+<!-- start cloud2pcd (transform pointcloud2 to pcd files continously) -->
+<launch>
+
+    <node pkg="3DLSKdriver" 
+          type="3DLSKdriver_cloud2PCD"
+          name="cloud2pcd_3dls_x" 
+          respawn="true" />
+
+</launch>

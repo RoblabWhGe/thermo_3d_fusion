@@ -1,0 +1,11 @@
+<!-- start rviz viewer -->
+<launch>
+
+    <node pkg="rviz" 
+          type="rviz"
+          name="rviz_live"
+          respawn="true"
+          output="screen"
+          args="-d $(find 3DLSKdriver)/launch/scan2monitor_quadav.vcg" />
+
+</launch>

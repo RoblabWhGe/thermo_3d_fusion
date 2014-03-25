@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find thermo_cam_2)/launch/thermo_cam.launch" />
+  <include file="$(find 3DLSKdriver)/launch/scanmode_multi.launch" />
+  <node pkg="extrinsic_calibration" type="extrinsic_calibration" name="extrinsic_calibration" output="screen" />
+</launch>

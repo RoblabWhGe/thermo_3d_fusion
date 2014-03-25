@@ -1,0 +1,9 @@
+<launch>
+  <node pkg="thermo_cam_2" type="thermo_cam_2" name="thermo_cam" output="screen">
+    <param name="config_file" value="10110034.xml"/>
+  </node>
+  <node pkg="image_view" type="image_view" name="viewer">
+    <param name="filename_format" value="/home/USER/images/frame%04i.jpg"/>
+    <remap from="image" to="thermo_cam/image_raw"/>
+  </node>
+</launch>

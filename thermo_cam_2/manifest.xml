@@ -1,0 +1,20 @@
+<package>
+  <description brief="thermo_cam_2">
+
+     thermo_cam_2
+
+  </description>
+  <author>Initial Version: Stefan Wilkes, Modified Version: Tom-M. Liebelt</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/thermo_cam_2</url>
+  <depend package="roscpp"/>
+  <depend package="sensor_msgs"/>
+  <depend package="image_transport"/>
+  <depend package="std_srvs"/>
+  <depend package="camera_info_manager" />
+  <rosdep name="udev"/>
+
+</package>
+
+

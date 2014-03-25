@@ -1,0 +1,27 @@
+<!-- start ros lms1xx scanner -->
+<launch>
+
+    <!-- define transformation tree [Usage: static_transform_publisher x y z yaw pitch roll frame_id child_frame_id period(milliseconds)] -->
+    <node pkg="tf" 
+          type="static_transform_publisher" 
+          name="link_broadcaster" 
+          args="-1.80 0.0 1.075 0.0 -1.570796325 0 /world /rotary_base 10" />
+
+    <node pkg="tf" 
+          type="static_transform_publisher" 
+          name="link1_broadcaster" 
+          args="0 0 0.095 0 -1.570796325 0 /rotary_plate /laser 10" />
+
+    <node pkg="LMS1xx" 
+          type="LMS100" 
+          name="lms100_3dls_x" 
+          respawn="true">
+
+          <param name="host" 
+                 value="192.168.2.222" />
+          <param name="frame_id" 
+                 value="/laser" />
+
+    </node>
+
+</launch>

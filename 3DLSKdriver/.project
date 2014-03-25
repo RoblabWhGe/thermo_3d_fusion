@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>3DLSKdriver-RelWithDebInfo@3DLSKdriver</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.makeBuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enabledIncrementalBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.command</key>
+					<value>/usr/bin/make</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.inc</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.arguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildLocation</key>
+					<value>/home/tronoc/ros/3DLSKdriver</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.environment</key>
+					<value>VERBOSE=1|ROS_ROOT=/opt/ros/fuerte/share/ros|ROS_PACKAGE_PATH=/opt/ros/fuerte/share:/opt/ros/fuerte/stacks:/home/tronoc/ros|PYTHONPATH=/opt/ros/fuerte/lib/python2.7/dist-packages:|PATH=/opt/ros/fuerte/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games|</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.auto</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.clean</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.location</key>
+					<value>/home/tronoc/ros/3DLSKdriver</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.core.errorOutputParser</key>
+					<value>org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.ScannerConfigBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.make.core.makeNature</nature>
+		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[Subprojects]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] 3DLSKdriver</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] 3DLSKdriver/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] 3DLSKdriver/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] 3DLSKdriver/Source Files/CEposVMC.cpp</name>
+			<type>1</type>
+			<location>/home/tronoc/ros/3DLSKdriver/src/fair/devices/servo/CEposVMC.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] 3DLSKdriver/Source Files/CSocketAdapter.cpp</name>
+			<type>1</type>
+			<location>/home/tronoc/ros/3DLSKdriver/src/fair/core/io/socket/CSocketAdapter.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] 3DLSKdriver/Source Files/CComAdapter.cpp</name>
+			<type>1</type>
+			<location>/home/tronoc/ros/3DLSKdriver/src/fair/core/io/com/CComAdapter.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] 3DLSKdriver/Source Files/CTimer.cpp</name>
+			<type>1</type>
+			<location>/home/tronoc/ros/3DLSKdriver/src/fair/core/base/CTimer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] 3DLSKdriver/Source Files/CSickLms100Scanner.cpp</name>
+			<type>1</type>
+			<location>/home/tronoc/ros/3DLSKdriver/src/fair/devices/scanner/CSickLms100Scanner.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] 3DLSKdriver/Source Files/CSickScanner.cpp</name>
+			<type>1</type>
+			<location>/home/tronoc/ros/3DLSKdriver/src/fair/devices/scanner/CSickScanner.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] 3DLSKdriver/Source Files/RingBuffer.cpp</name>
+			<type>1</type>
+			<location>/home/tronoc/ros/3DLSKdriver/src/data_structures/RingBuffer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] 3DLSKdriver/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] 3DLSKdriver/Header Files/IDeviceAdapter.h</name>
+			<type>1</type>
+			<location>/home/tronoc/ros/3DLSKdriver/src/fair/core/io/IDeviceAdapter.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] 3DLSKdriver/Header Files/CSocketAdapter.h</name>
+			<type>1</type>
+			<location>/home/tronoc/ros/3DLSKdriver/src/fair/core/io/socket/CSocketAdapter.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] 3DLSKdriver/Header Files/IDevice.h</name>
+			<type>1</type>
+			<location>/home/tronoc/ros/3DLSKdriver/src/fair/devices/factory/IDevice.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] 3DLSKdriver/Header Files/CTimer.h</name>
+			<type>1</type>
+			<location>/home/tronoc/ros/3DLSKdriver/src/fair/core/base/CTimer.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] 3DLSKdriver/Header Files/common.h</name>
+			<type>1</type>
+			<location>/home/tronoc/ros/3DLSKdriver/src/fair/core/base/common.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] 3DLSKdriver/Header Files/IScanner.h</name>
+			<type>1</type>
+			<location>/home/tronoc/ros/3DLSKdriver/src/fair/devices/scanner/IScanner.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] 3DLSKdriver/Header Files/CSickLms100Scanner.h</name>
+			<type>1</type>
+			<location>/home/tronoc/ros/3DLSKdriver/src/fair/devices/scanner/CSickLms100Scanner.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] 3DLSKdriver/Header Files/CSickScanner.h</name>
+			<type>1</type>
+			<location>/home/tronoc/ros/3DLSKdriver/src/fair/devices/scanner/CSickScanner.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] 3DLSKdriver/Header Files/sickmsg.h</name>
+			<type>1</type>
+			<location>/home/tronoc/ros/3DLSKdriver/src/fair/devices/scanner/sickmsg.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] 3DLSKdriver/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] 3DLSKdriver/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 3DLSKdriver_cloud2PCD</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 3DLSKdriver_cloud2PCD/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 3DLSKdriver_cloud2PCD/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 3DLSKdriver_cloud2PCD/Source Files/cloud2PCD.cpp</name>
+			<type>1</type>
+			<location>/home/tronoc/ros/3DLSKdriver/src/cloud2PCD.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 3DLSKdriver_cloud2PCD/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 3DLSKdriver_cloud2PCD/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 3DLSKdriver_cloud2PCD/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 3DLSKdriver_rotary_drive</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 3DLSKdriver_rotary_drive/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 3DLSKdriver_rotary_drive/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 3DLSKdriver_rotary_drive/Source Files/rotary_drive.cpp</name>
+			<type>1</type>
+			<location>/home/tronoc/ros/3DLSKdriver/src/rotary_drive.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 3DLSKdriver_rotary_drive/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 3DLSKdriver_rotary_drive/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 3DLSKdriver_rotary_drive/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 3DLSKdriver_scan2cloud</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 3DLSKdriver_scan2cloud/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 3DLSKdriver_scan2cloud/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 3DLSKdriver_scan2cloud/Source Files/scan2cloud.cpp</name>
+			<type>1</type>
+			<location>/home/tronoc/ros/3DLSKdriver/src/scan2cloud.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 3DLSKdriver_scan2cloud/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 3DLSKdriver_scan2cloud/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] 3DLSKdriver_scan2cloud/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
